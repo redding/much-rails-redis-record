@@ -1,6 +1,6 @@
 # MuchRailsRedisRecord
 
-TODO: Write a gem description
+Store records in Redis with MuchRails.
 
 ## Usage
 

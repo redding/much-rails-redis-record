@@ -8,11 +8,11 @@ require "much-rails-redis-record/version"
 Gem::Specification.new do |gem|
   gem.name        = "much-rails-redis-record"
   gem.version     = MuchRailsRedisRecord::VERSION
-  gem.authors     = ["TODO: authors"]
-  gem.email       = ["TODO: emails"]
-  gem.summary     = "TODO: Write a gem summary"
-  gem.description = "TODO: Write a gem description"
-  gem.homepage    = "TODO: homepage"
+  gem.authors     = ["Kelly Redding", "Collin Redding"]
+  gem.email       = ["kelly@kellyredding.com", "collin.redding@me.com"]
+  gem.summary     = "Store records in Redis with MuchRails."
+  gem.description = "Store records in Redis with MuchRails."
+  gem.homepage    = "https://github.com/redding/much-rails-redis-record"
   gem.license     = "MIT"
 
   gem.files = `git ls-files | grep "^[^.]"`.split($INPUT_RECORD_SEPARATOR)
@@ -26,5 +26,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency("much-style-guide", ["~> 0.6.4"])
   gem.add_development_dependency("assert",           ["~> 2.19.6"])
 
-  # TODO: gem.add_dependency("gem-name", ["~> 0.0.0"])
+  gem.add_dependency("hella-redis", ["~> 0.5.0"])
 end
